@@ -21,8 +21,6 @@ public class C105_2 {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		//isr= new InputStreamReader(System.in);
-		//bf= new BufferedReader(isr);
 		try {
 			cal.setNum2(Integer.parseInt(bf.readLine()));
 		} catch (NumberFormatException e) {
