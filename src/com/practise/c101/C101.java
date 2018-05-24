@@ -3,12 +3,16 @@ package com.practise.c101;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.nio.DoubleBuffer;
+
 
 public class C101 {
 
 	
 	public static void main(String[] args) {
+		/*Triangle tri= new Triangle();
+		tri.draw(6);
+		 */
+
 		int op=0;
 		while(op!=5) {
 			InputStreamReader isr= new InputStreamReader(System.in);
@@ -118,8 +122,8 @@ public class C101 {
 					break;
 			}
 		}
+
+		Triangle triangle=new Triangle();
+		triangle.draw(6);
 	}
-	
-
-
 }
