@@ -35,9 +35,7 @@ public class C104 {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		isr =new InputStreamReader(System.in);
-		bufferedReader =new BufferedReader(isr);
-		System.out.println("Please input the amount of GBA:");
+				System.out.println("Please input the amount of GBA:");
 		try {
 			gba.setQuality(Double.parseDouble(bufferedReader.readLine()));
 		} catch (NumberFormatException e) {
@@ -48,8 +46,6 @@ public class C104 {
 			e.printStackTrace();
 		}
 		
-		isr =new InputStreamReader(System.in);
-		bufferedReader =new BufferedReader(isr);
 		System.out.println("Please input the amount of MP3:");
 		try {
 			mp3.setQuality(Double.parseDouble(bufferedReader.readLine()));
@@ -61,8 +57,6 @@ public class C104 {
 			e.printStackTrace();
 		};
 		
-		isr =new InputStreamReader(System.in);
-		bufferedReader =new BufferedReader(isr);
 		System.out.println("Please input the price of GBA:");
 		try {
 			gba.setPrice(Double.parseDouble(bufferedReader.readLine()));
@@ -74,8 +68,6 @@ public class C104 {
 			e.printStackTrace();
 		};
 		
-		isr =new InputStreamReader(System.in);
-		bufferedReader =new BufferedReader(isr);
 		System.out.println("Please input the price of MP3:");
 		try {
 			mp3.setPrice(Double.parseDouble(bufferedReader.readLine()));
