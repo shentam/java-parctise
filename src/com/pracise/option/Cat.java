@@ -235,7 +235,8 @@ public class Cat {
 				break;
 
 			}
+			
 		}
-
+		System.out.println("Bye!");
 	}		
 }
