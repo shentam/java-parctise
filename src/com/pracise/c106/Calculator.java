@@ -16,6 +16,7 @@ public class Calculator {
 	}
 	
 	public int count1(int left,int day) {
+		//µÝ¹é·½·¨
 		if(left==day) {
 			total=1;
 		}else {
